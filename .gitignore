@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+models/*.pth
+*.zip
+*.tar.gz
+*.png
+*.csv
+.env
+.DS_Store
