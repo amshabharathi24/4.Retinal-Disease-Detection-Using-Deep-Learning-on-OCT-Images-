@@ -1,0 +1,76 @@
+{
+  "model_name": "custom_cnn",
+  "test_accuracy": 0.368,
+  "test_macro_f1": 0.2859,
+  "classification_report": {
+    "CNV": {
+      "precision": 0.9534883720930233,
+      "recall": 0.164,
+      "f1-score": 0.27986348122866894,
+      "support": 250.0
+    },
+    "DME": {
+      "precision": 0.2835249042145594,
+      "recall": 0.296,
+      "f1-score": 0.2896281800391389,
+      "support": 250.0
+    },
+    "DRUSEN": {
+      "precision": 0.6,
+      "recall": 0.024,
+      "f1-score": 0.046153846153846156,
+      "support": 250.0
+    },
+    "NORMAL": {
+      "precision": 0.36005830903790087,
+      "recall": 0.988,
+      "f1-score": 0.5277777777777778,
+      "support": 250.0
+    },
+    "accuracy": 0.368,
+    "macro avg": {
+      "precision": 0.549267896336371,
+      "recall": 0.368,
+      "f1-score": 0.285855821299858,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.5492678963363709,
+      "recall": 0.368,
+      "f1-score": 0.285855821299858,
+      "support": 1000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      41,
+      159,
+      1,
+      49
+    ],
+    [
+      1,
+      74,
+      2,
+      173
+    ],
+    [
+      1,
+      26,
+      6,
+      217
+    ],
+    [
+      0,
+      2,
+      1,
+      247
+    ]
+  ],
+  "class_names": [
+    "CNV",
+    "DME",
+    "DRUSEN",
+    "NORMAL"
+  ]
+}

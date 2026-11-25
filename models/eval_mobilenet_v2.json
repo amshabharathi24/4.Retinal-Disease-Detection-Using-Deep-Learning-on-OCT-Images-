@@ -1,0 +1,76 @@
+{
+  "model_name": "mobilenet_v2",
+  "test_accuracy": 0.748,
+  "test_macro_f1": 0.7332,
+  "classification_report": {
+    "CNV": {
+      "precision": 0.832579185520362,
+      "recall": 0.736,
+      "f1-score": 0.7813163481953291,
+      "support": 250.0
+    },
+    "DME": {
+      "precision": 0.6629834254143646,
+      "recall": 0.96,
+      "f1-score": 0.7843137254901961,
+      "support": 250.0
+    },
+    "DRUSEN": {
+      "precision": 0.9122807017543859,
+      "recall": 0.416,
+      "f1-score": 0.5714285714285714,
+      "support": 250.0
+    },
+    "NORMAL": {
+      "precision": 0.7260726072607261,
+      "recall": 0.88,
+      "f1-score": 0.7956600361663653,
+      "support": 250.0
+    },
+    "accuracy": 0.748,
+    "macro avg": {
+      "precision": 0.7834789799874596,
+      "recall": 0.748,
+      "f1-score": 0.7331796703201156,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.7834789799874597,
+      "recall": 0.748,
+      "f1-score": 0.7331796703201156,
+      "support": 1000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      184,
+      54,
+      8,
+      4
+    ],
+    [
+      4,
+      240,
+      0,
+      6
+    ],
+    [
+      28,
+      45,
+      104,
+      73
+    ],
+    [
+      5,
+      23,
+      2,
+      220
+    ]
+  ],
+  "class_names": [
+    "CNV",
+    "DME",
+    "DRUSEN",
+    "NORMAL"
+  ]
+}
